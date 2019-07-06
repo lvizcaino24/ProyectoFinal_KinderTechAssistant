@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinder" translatesAutoresizingMaskIntoConstraints="NO" id="EBM-Kl-Duv">
+                                <rect key="frame" x="-22" y="100" width="458" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="458" id="9FJ-Ih-BEO"/>
+                                    <constraint firstAttribute="height" constant="196" id="Pu3-0j-72d"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="assitant" translatesAutoresizingMaskIntoConstraints="NO" id="hKL-JR-5Pr">
+                                <rect key="frame" x="44" y="339" width="326" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="326" id="Jw3-dH-RMA"/>
+                                    <constraint firstAttribute="height" constant="218" id="VMv-QE-umz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kids" translatesAutoresizingMaskIntoConstraints="NO" id="aVq-H9-Q1z">
+                                <rect key="frame" x="11.5" y="574" width="391" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="207" id="Hn6-LN-OOh"/>
+                                    <constraint firstAttribute="width" constant="391" id="l2w-X5-vYd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aVq-H9-Q1z" firstAttribute="top" secondItem="hKL-JR-5Pr" secondAttribute="bottom" constant="17" id="0oP-OM-fUh"/>
+                            <constraint firstItem="aVq-H9-Q1z" firstAttribute="centerX" secondItem="hKL-JR-5Pr" secondAttribute="centerX" id="HJS-5N-dy7"/>
+                            <constraint firstItem="aVq-H9-Q1z" firstAttribute="centerX" secondItem="EBM-Kl-Duv" secondAttribute="centerX" id="Ups-e7-Th3"/>
+                            <constraint firstItem="hKL-JR-5Pr" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YjM-LJ-2XV"/>
+                            <constraint firstItem="hKL-JR-5Pr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aCg-U8-iRI"/>
+                            <constraint firstItem="hKL-JR-5Pr" firstAttribute="top" secondItem="EBM-Kl-Duv" secondAttribute="bottom" constant="43" id="zcV-kA-XRR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="assitant" width="392" height="392"/>
+        <image name="kids" width="810" height="520"/>
+        <image name="kinder" width="720" height="320"/>
+    </resources>
+</document>
