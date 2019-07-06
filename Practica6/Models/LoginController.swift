@@ -25,8 +25,8 @@ class LoginController: UIViewController {
         
         //1 paso: validar que no esten vacios los campos
         if (txtuser.text!.isEmpty || txtPassword.text!.isEmpty) {
-            let alert = UIAlertController(title: "cuidado", message: "debes llenar todos los campos", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Ah ok", style: .destructive, handler: nil))
+            let alert = UIAlertController(title: "Alerta", message: "Todos los campos son obligatorios", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Aceptar", style: .destructive, handler: nil))
             present(alert, animated: true, completion: nil)
             
         }
@@ -50,7 +50,7 @@ class LoginController: UIViewController {
     }
     
     @IBAction func ForgotPassword(_ sender: Any) {
-        let alert = UIAlertController(title: "¿Olvidaste tu contraseña?", message: "Si no la tienes, puedes ir a buscarla", preferredStyle: .alert)
+        let alert = UIAlertController(title: "¿Olvidaste tu contraseña?", message: "Intenta recordar tu contraseña", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Buscar Contraseña", style: .destructive, handler: nil))
         alert.addAction(UIAlertAction(title: "¡Ya me acordè!", style: .default, handler: { (action) in
             print("¡Password Encontrada!")
