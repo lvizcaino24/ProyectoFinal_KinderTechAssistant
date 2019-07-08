@@ -43,9 +43,6 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3S-id-6wR">
                                                     <rect key="frame" x="341" y="11" width="51" height="31"/>
-                                                    <connections>
-                                                        <action selector="invitar:" destination="XqH-3v-zNF" eventType="valueChanged" id="3kd-ct-gAw"/>
-                                                    </connections>
                                                 </switch>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ubicaciòn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfq-Kk-qd2">
                                                     <rect key="frame" x="256.5" y="16" width="76.5" height="21"/>

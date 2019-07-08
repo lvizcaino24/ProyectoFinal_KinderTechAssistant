@@ -26,20 +26,20 @@ class UserTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
-    @IBAction func invitar(_ sender: UISwitch) {
+    
+    /*@IBAction func invitar(_ sender: UISwitch) {
         if sender.isOn {
-            //stepperInvitado.isEnabled = true
+            stepperInvitado.isEnabled = true
         } else {
-        //stepperInvitado.isEnabled = false
-        //stepperInvitado.value = 0
-        lblInvitados.text = "0"
+            stepperInvitado.isEnabled = false
+            stepperInvitado.value = 0
+            //lblInvitados.text = "0"
+        }
     }
-}
     
     @IBAction func agregarInvitados(_ sender: UIStepper) {
-        lblInvitados.text = stepperInvitado.value.description
+        //lblInvitados.text = stepperInvitado.value.description
         
-    }
+    }*/
     
 }
